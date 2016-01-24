@@ -1,8 +1,36 @@
+/**
+ * @file	Thread.h
+ *
+ * @brief	Declares the Tthread class.
+ */
+
 #include <list>
 #include "Message.h"
 
+/**
+ * @class	Thread
+ *
+ * @brief	A thread that has a queue of Message object,
+ * 			with the most recent message at the front.
+ *
+ * @author	Sevensevens
+ * @date	1/24/2016
+ */
+
 class Thread {
 public:
+
+	/**
+	 * @fn	Thread::Thread(unsigned int id);
+	 *
+	 * @brief	Constructor. Initialize a Thread object with its id.
+	 *
+	 * @author	Sevensevens
+	 * @date	1/24/2016
+	 *
+	 * @param	id	The identifier.
+	 */
+
 	Thread(unsigned int id);
 
 	/**
@@ -26,7 +54,7 @@ public:
 	 * @author	Sevensevens
 	 * @date	1/24/2016
 	 *
-	 * @param [in,out]	message	If non-null, the message to add.
+	 * @param [in,out]	message	If non-null, the message to be added.
 	 */
 
 	void add(Message* message);
@@ -34,7 +62,7 @@ public:
 	/**
 	 * @fn	string Thread::str();
 	 *
-	 * @brief	Gets the string representation of the message object.
+	 * @brief	Gets the string representation of the Thread object.
 	 *
 	 * @author	Sevensevens
 	 * @date	1/24/2016
@@ -45,6 +73,8 @@ public:
 	string str();
 
 private:
+	/** @brief	The unique identifier of the thread. */
 	const unsigned int m_id;
+	/** @brief	The messages queue that keep the most recent message at front. */
 	list<Message*> m_messages;
 };

@@ -1,5 +1,10 @@
-// ThreadedMessenger.cpp : Defines the entry point for the console application.
-//
+/**
+ * @file	ThreadedMessenger.cpp
+ *
+ * @brief	This is the entry point of the program, 
+ * 			it mainly shows some example of displaying 
+ * 			the state of the threalist.
+ */
 
 #include "stdafx.h"
 #include <iostream>

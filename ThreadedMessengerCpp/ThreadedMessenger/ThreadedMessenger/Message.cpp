@@ -1,3 +1,9 @@
+/**
+ * @file	Message.cpp
+ *
+ * @brief	Implements the message class.
+ */
+
 #include "stdafx.h"
 #include "Message.h"
 
