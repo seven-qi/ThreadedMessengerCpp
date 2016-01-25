@@ -62,6 +62,6 @@ int _tmain()
 	cout << endl;
 
 	cin.ignore();
-	return 0;
+	return EXIT_SUCCESS;
 }
 
