@@ -34,7 +34,6 @@ int _tmain()
 	// Add (M13, T7), state: [7(13)].
 	cout << "Add (M13, T7)" << endl;
 	Message* message_13 = new Message(13, "Head of Message 13", "Content of Message 13");
-	cout << message_13->head() << "????" << endl;
 	int ret = threadlist->add(message_13, 7);
 	if (ret == EXIT_FAILURE) {
 		cout << "Failed to add" << endl;
