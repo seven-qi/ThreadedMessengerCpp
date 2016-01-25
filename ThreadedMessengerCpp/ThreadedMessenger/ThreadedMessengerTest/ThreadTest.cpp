@@ -12,17 +12,18 @@ namespace ThreadedMessengerTest
 		
 		TEST_METHOD(id)
 		{
+			spdlog::drop_all();
 			Thread* thread = new Thread(1);
 			unsigned int id = 1;
-			Assert::AreEqual(thread->id(), id);
+			Assert::AreEqual(id, thread->id());
 			delete thread;
 		}
 
 		TEST_METHOD(str)
 		{
 			Thread* thread = new Thread(1);
-			string str = "1()";
-			Assert::AreEqual(thread->str(), str);
+			string correct_str = "1()";
+			Assert::AreEqual(correct_str, thread->str());
 			delete thread;
 		}
 
@@ -35,10 +36,11 @@ namespace ThreadedMessengerTest
 			// Check nullptr.
 			Assert::AreEqual(1, thread->add(nullptr));
 
-			// Check message ponter.
+			// Check message pointer.
 			thread->add(message);
-			string str = "1(1)";
-			Assert::AreEqual(thread->str(), str);
+			string correct_str = "1(1)";
+			Assert::AreEqual(correct_str, thread->str());
+
 			delete thread;
 		}
 	};

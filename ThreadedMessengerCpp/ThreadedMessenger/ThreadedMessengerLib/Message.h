@@ -93,9 +93,9 @@ private:
 	/** @brief	The unique identifier of a Message object. */
 	const unsigned int m_id;
 	/** @brief	The head of the message. */
-	const string& m_head;
+	const string m_head;
 	/** @brief	The content of the message. */
-	const string& m_content;
+	const string m_content;
 	/** @brief	The shared logger. */
 	std::shared_ptr<spdlog::logger> m_logger;
 };

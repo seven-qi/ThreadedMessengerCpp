@@ -9,9 +9,9 @@
 
 Message::Message(unsigned int id, const string& head, const string& content) :
 m_id(id), m_head(head), m_content(content) {
-	m_logger = spdlog::get("file_logger");
-	m_logger->info("Creates message_{}.", id);
-};
+	// m_logger = spdlog::get("file_logger");
+	// m_logger->info("Creates message_{}.", id);
+}
 
 const unsigned int Message::id() {
 	return m_id;

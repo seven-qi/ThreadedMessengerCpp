@@ -9,13 +9,13 @@
 #include "stdafx.h"
 #include <iostream>
 #include "ThreadList.h"
-#include "spdlog\spdlog.h"
+// #include "spdlog\spdlog.h"
 
 using namespace std;
 
 int _tmain()
 {
-	namespace spd = spdlog;
+	/*namespace spd = spdlog;
 	try {
 		auto file_logger = spd::rotating_logger_st("file_logger", "Logs\\threaded_messenger.log", 1024 * 1024 * 5, 1, true);
 		file_logger->info("Welcome to the Threaded Messenger!");
@@ -23,7 +23,7 @@ int _tmain()
 	}
 	catch (const spd::spdlog_ex& ex) {
 		cout << "Log failed: " << ex.what() << endl;
-	}
+	}*/
 	// Create new threadlist that shows only the top 3 threads. state: [].
 	cout << "Create new threadlist that shows only the top 3 threads." << endl;
 	ThreadList* threadlist = new ThreadList(3);
@@ -34,6 +34,7 @@ int _tmain()
 	// Add (M13, T7), state: [7(13)].
 	cout << "Add (M13, T7)" << endl;
 	Message* message_13 = new Message(13, "Head of Message 13", "Content of Message 13");
+	cout << message_13->head() << "????" << endl;
 	int ret = threadlist->add(message_13, 7);
 	if (ret == EXIT_FAILURE) {
 		cout << "Failed to add" << endl;
