@@ -1,0 +1,239 @@
+[2016-01-24 22:37:10.636] [file_logger] [info] Welcome to the Threaded Messenger!
+[2016-01-24 22:37:10.637] [file_logger] [info] Main function starts.
+[2016-01-24 22:37:10.662] [file_logger] [info] Creates threalist with size: 3.
+[2016-01-24 22:37:10.663] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.663] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.663] [file_logger] [info] []
+[2016-01-24 22:37:10.675] [file_logger] [info] Creates message_13.
+[2016-01-24 22:37:10.676] [file_logger] [info] Creates thread_7.
+[2016-01-24 22:37:10.676] [file_logger] [info] Try to add message_13 to thread_7.
+[2016-01-24 22:37:10.676] [file_logger] [info] Successfully added message_13 to thread_7.
+[2016-01-24 22:37:10.676] [file_logger] [info] Added message_13 to thread_ 7 in threadlist.
+[2016-01-24 22:37:10.684] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.711] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.712] [file_logger] [info] []
+[2016-01-24 22:37:10.720] [file_logger] [info] Creates message_5.
+[2016-01-24 22:37:10.721] [file_logger] [info] Creates thread_99.
+[2016-01-24 22:37:10.721] [file_logger] [info] Try to add message_5 to thread_99.
+[2016-01-24 22:37:10.721] [file_logger] [info] Successfully added message_5 to thread_99.
+[2016-01-24 22:37:10.721] [file_logger] [info] Added message_5 to thread_ 99 in threadlist.
+[2016-01-24 22:37:10.723] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.725] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.725] [file_logger] [info] []
+[2016-01-24 22:37:10.736] [file_logger] [info] Creates message_4.
+[2016-01-24 22:37:10.736] [file_logger] [info] Creates thread_11.
+[2016-01-24 22:37:10.736] [file_logger] [info] Try to add message_4 to thread_11.
+[2016-01-24 22:37:10.736] [file_logger] [info] Successfully added message_4 to thread_11.
+[2016-01-24 22:37:10.737] [file_logger] [info] Added message_4 to thread_ 11 in threadlist.
+[2016-01-24 22:37:10.743] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.745] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.745] [file_logger] [info] []
+[2016-01-24 22:37:10.749] [file_logger] [info] Creates message_1.
+[2016-01-24 22:37:10.749] [file_logger] [info] Creates thread_1.
+[2016-01-24 22:37:10.749] [file_logger] [info] Try to add message_1 to thread_1.
+[2016-01-24 22:37:10.749] [file_logger] [info] Successfully added message_1 to thread_1.
+[2016-01-24 22:37:10.749] [file_logger] [info] Added message_1 to thread_ 1 in threadlist.
+[2016-01-24 22:37:10.751] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.754] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.754] [file_logger] [info] []
+[2016-01-24 22:37:10.761] [file_logger] [info] Creates message_2.
+[2016-01-24 22:37:10.761] [file_logger] [info] Try to add message_2 to thread_7.
+[2016-01-24 22:37:10.761] [file_logger] [info] Successfully added message_2 to thread_7.
+[2016-01-24 22:37:10.761] [file_logger] [info] Added message_2 to thread_ 7 in threadlist.
+[2016-01-24 22:37:10.765] [file_logger] [info] Try to display top 0 threads in threadlist.
+[2016-01-24 22:37:10.768] [file_logger] [info] display top 0 threads in threadlist as below:
+[2016-01-24 22:37:10.768] [file_logger] [info] []
+[2016-01-24 22:39:19.274] [file_logger] [info] Welcome to the Threaded Messenger!
+[2016-01-24 22:39:19.275] [file_logger] [info] Main function starts.
+[2016-01-24 22:39:19.307] [file_logger] [info] Creates threalist with size: 3.
+[2016-01-24 22:39:19.314] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.317] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.317] [file_logger] [info] []
+[2016-01-24 22:39:19.359] [file_logger] [info] Creates message_13.
+[2016-01-24 22:39:19.359] [file_logger] [info] Creates thread_7.
+[2016-01-24 22:39:19.359] [file_logger] [info] Try to add message_13 to thread_7.
+[2016-01-24 22:39:19.359] [file_logger] [info] Successfully added message_13 to thread_7.
+[2016-01-24 22:39:19.359] [file_logger] [info] Added message_13 to thread_ 7 in threadlist.
+[2016-01-24 22:39:19.367] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.367] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:39:19.367] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:39:19.379] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.381] [file_logger] [info] [7(13)]
+[2016-01-24 22:39:19.400] [file_logger] [info] Creates message_5.
+[2016-01-24 22:39:19.400] [file_logger] [info] Creates thread_99.
+[2016-01-24 22:39:19.400] [file_logger] [info] Try to add message_5 to thread_99.
+[2016-01-24 22:39:19.401] [file_logger] [info] Successfully added message_5 to thread_99.
+[2016-01-24 22:39:19.401] [file_logger] [info] Added message_5 to thread_ 99 in threadlist.
+[2016-01-24 22:39:19.407] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.407] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:39:19.407] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:39:19.407] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:39:19.408] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:39:19.428] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.428] [file_logger] [info] [99(5), 7(13)]
+[2016-01-24 22:39:19.432] [file_logger] [info] Creates message_4.
+[2016-01-24 22:39:19.432] [file_logger] [info] Creates thread_11.
+[2016-01-24 22:39:19.432] [file_logger] [info] Try to add message_4 to thread_11.
+[2016-01-24 22:39:19.432] [file_logger] [info] Successfully added message_4 to thread_11.
+[2016-01-24 22:39:19.432] [file_logger] [info] Added message_4 to thread_ 11 in threadlist.
+[2016-01-24 22:39:19.438] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.438] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:39:19.438] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:39:19.438] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:39:19.438] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:39:19.438] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:39:19.438] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:39:19.461] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.461] [file_logger] [info] [11(4), 99(5), 7(13)]
+[2016-01-24 22:39:19.474] [file_logger] [info] Creates message_1.
+[2016-01-24 22:39:19.475] [file_logger] [info] Creates thread_1.
+[2016-01-24 22:39:19.475] [file_logger] [info] Try to add message_1 to thread_1.
+[2016-01-24 22:39:19.475] [file_logger] [info] Successfully added message_1 to thread_1.
+[2016-01-24 22:39:19.475] [file_logger] [info] Added message_1 to thread_ 1 in threadlist.
+[2016-01-24 22:39:19.481] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.481] [file_logger] [info] Trying to get string representation of thread_1.
+[2016-01-24 22:39:19.481] [file_logger] [info] Got string representation of thread_1 as: 1(1).
+[2016-01-24 22:39:19.481] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:39:19.482] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:39:19.482] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:39:19.482] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:39:19.503] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.505] [file_logger] [info] [1(1), 11(4), 99(5)]
+[2016-01-24 22:39:19.511] [file_logger] [info] Creates message_2.
+[2016-01-24 22:39:19.512] [file_logger] [info] Try to add message_2 to thread_7.
+[2016-01-24 22:39:19.512] [file_logger] [info] Successfully added message_2 to thread_7.
+[2016-01-24 22:39:19.512] [file_logger] [info] Added message_2 to thread_ 7 in threadlist.
+[2016-01-24 22:39:19.519] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:39:19.519] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:39:19.519] [file_logger] [info] Got string representation of thread_7 as: 7(2, 13).
+[2016-01-24 22:39:19.519] [file_logger] [info] Trying to get string representation of thread_1.
+[2016-01-24 22:39:19.519] [file_logger] [info] Got string representation of thread_1 as: 1(1).
+[2016-01-24 22:39:19.519] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:39:19.519] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:39:19.531] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:39:19.531] [file_logger] [info] [7(2, 13), 1(1), 11(4)]
+[2016-01-24 22:53:21.098] [file_logger] [info] Welcome to the Threaded Messenger!
+[2016-01-24 22:53:21.100] [file_logger] [info] Main function starts.
+[2016-01-24 22:53:21.166] [file_logger] [info] Creates threalist with size: 3.
+[2016-01-24 22:53:21.167] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.172] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.172] [file_logger] [info] []
+[2016-01-24 22:53:21.194] [file_logger] [info] Creates message_13.
+[2016-01-24 22:53:21.194] [file_logger] [info] Try to add message_13 to threadlist.
+[2016-01-24 22:53:21.194] [file_logger] [info] Creates thread_7.
+[2016-01-24 22:53:21.194] [file_logger] [info] Try to add message_13 to thread_7.
+[2016-01-24 22:53:21.194] [file_logger] [info] Successfully added message_13 to thread_7.
+[2016-01-24 22:53:21.194] [file_logger] [info] Failed to add message to threalist, check inputs: message = 13
+[2016-01-24 22:53:21.223] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.226] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.226] [file_logger] [info] []
+[2016-01-24 22:53:21.259] [file_logger] [info] Creates message_5.
+[2016-01-24 22:53:21.259] [file_logger] [info] Try to add message_5 to threadlist.
+[2016-01-24 22:53:21.261] [file_logger] [info] Creates thread_99.
+[2016-01-24 22:53:21.261] [file_logger] [info] Try to add message_5 to thread_99.
+[2016-01-24 22:53:21.261] [file_logger] [info] Successfully added message_5 to thread_99.
+[2016-01-24 22:53:21.261] [file_logger] [info] Failed to add message to threalist, check inputs: message = 5
+[2016-01-24 22:53:21.270] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.272] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.272] [file_logger] [info] []
+[2016-01-24 22:53:21.282] [file_logger] [info] Creates message_4.
+[2016-01-24 22:53:21.282] [file_logger] [info] Try to add message_4 to threadlist.
+[2016-01-24 22:53:21.284] [file_logger] [info] Creates thread_11.
+[2016-01-24 22:53:21.284] [file_logger] [info] Try to add message_4 to thread_11.
+[2016-01-24 22:53:21.284] [file_logger] [info] Successfully added message_4 to thread_11.
+[2016-01-24 22:53:21.284] [file_logger] [info] Failed to add message to threalist, check inputs: message = 4
+[2016-01-24 22:53:21.311] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.313] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.313] [file_logger] [info] []
+[2016-01-24 22:53:21.327] [file_logger] [info] Creates message_1.
+[2016-01-24 22:53:21.327] [file_logger] [info] Try to add message_1 to threadlist.
+[2016-01-24 22:53:21.328] [file_logger] [info] Creates thread_1.
+[2016-01-24 22:53:21.328] [file_logger] [info] Try to add message_1 to thread_1.
+[2016-01-24 22:53:21.328] [file_logger] [info] Successfully added message_1 to thread_1.
+[2016-01-24 22:53:21.328] [file_logger] [info] Failed to add message to threalist, check inputs: message = 1
+[2016-01-24 22:53:21.368] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.372] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.372] [file_logger] [info] []
+[2016-01-24 22:53:21.399] [file_logger] [info] Creates message_2.
+[2016-01-24 22:53:21.399] [file_logger] [info] Try to add message_2 to threadlist.
+[2016-01-24 22:53:21.399] [file_logger] [info] Creates thread_7.
+[2016-01-24 22:53:21.399] [file_logger] [info] Try to add message_2 to thread_7.
+[2016-01-24 22:53:21.400] [file_logger] [info] Successfully added message_2 to thread_7.
+[2016-01-24 22:53:21.400] [file_logger] [info] Failed to add message to threalist, check inputs: message = 2
+[2016-01-24 22:53:21.413] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:53:21.415] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:53:21.417] [file_logger] [info] []
+[2016-01-24 22:55:56.033] [file_logger] [info] Welcome to the Threaded Messenger!
+[2016-01-24 22:55:56.043] [file_logger] [info] Main function starts.
+[2016-01-24 22:55:56.082] [file_logger] [info] Creates threalist with size: 3.
+[2016-01-24 22:55:56.091] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.092] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.092] [file_logger] [info] []
+[2016-01-24 22:55:56.093] [file_logger] [info] Creates message_13.
+[2016-01-24 22:55:56.093] [file_logger] [info] Try to add message_13 to threadlist.
+[2016-01-24 22:55:56.093] [file_logger] [info] Creates thread_7.
+[2016-01-24 22:55:56.093] [file_logger] [info] Try to add message_13 to thread_7.
+[2016-01-24 22:55:56.093] [file_logger] [info] Successfully added message_13 to thread_7.
+[2016-01-24 22:55:56.093] [file_logger] [info] Added message_13 to thread_ 7 in threadlist.
+[2016-01-24 22:55:56.095] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.095] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:55:56.095] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:55:56.110] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.111] [file_logger] [info] [7(13)]
+[2016-01-24 22:55:56.125] [file_logger] [info] Creates message_5.
+[2016-01-24 22:55:56.125] [file_logger] [info] Try to add message_5 to threadlist.
+[2016-01-24 22:55:56.125] [file_logger] [info] Creates thread_99.
+[2016-01-24 22:55:56.125] [file_logger] [info] Try to add message_5 to thread_99.
+[2016-01-24 22:55:56.125] [file_logger] [info] Successfully added message_5 to thread_99.
+[2016-01-24 22:55:56.125] [file_logger] [info] Added message_5 to thread_ 99 in threadlist.
+[2016-01-24 22:55:56.126] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.126] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:55:56.126] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:55:56.127] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:55:56.127] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:55:56.139] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.139] [file_logger] [info] [99(5), 7(13)]
+[2016-01-24 22:55:56.145] [file_logger] [info] Creates message_4.
+[2016-01-24 22:55:56.145] [file_logger] [info] Try to add message_4 to threadlist.
+[2016-01-24 22:55:56.145] [file_logger] [info] Creates thread_11.
+[2016-01-24 22:55:56.145] [file_logger] [info] Try to add message_4 to thread_11.
+[2016-01-24 22:55:56.145] [file_logger] [info] Successfully added message_4 to thread_11.
+[2016-01-24 22:55:56.145] [file_logger] [info] Added message_4 to thread_ 11 in threadlist.
+[2016-01-24 22:55:56.146] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.146] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:55:56.146] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:55:56.146] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:55:56.147] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:55:56.147] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:55:56.147] [file_logger] [info] Got string representation of thread_7 as: 7(13).
+[2016-01-24 22:55:56.161] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.161] [file_logger] [info] [11(4), 99(5), 7(13)]
+[2016-01-24 22:55:56.163] [file_logger] [info] Creates message_1.
+[2016-01-24 22:55:56.163] [file_logger] [info] Try to add message_1 to threadlist.
+[2016-01-24 22:55:56.163] [file_logger] [info] Creates thread_1.
+[2016-01-24 22:55:56.163] [file_logger] [info] Try to add message_1 to thread_1.
+[2016-01-24 22:55:56.163] [file_logger] [info] Successfully added message_1 to thread_1.
+[2016-01-24 22:55:56.163] [file_logger] [info] Added message_1 to thread_ 1 in threadlist.
+[2016-01-24 22:55:56.171] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.172] [file_logger] [info] Trying to get string representation of thread_1.
+[2016-01-24 22:55:56.172] [file_logger] [info] Got string representation of thread_1 as: 1(1).
+[2016-01-24 22:55:56.172] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:55:56.172] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:55:56.172] [file_logger] [info] Trying to get string representation of thread_99.
+[2016-01-24 22:55:56.172] [file_logger] [info] Got string representation of thread_99 as: 99(5).
+[2016-01-24 22:55:56.186] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.186] [file_logger] [info] [1(1), 11(4), 99(5)]
+[2016-01-24 22:55:56.191] [file_logger] [info] Creates message_2.
+[2016-01-24 22:55:56.191] [file_logger] [info] Try to add message_2 to threadlist.
+[2016-01-24 22:55:56.191] [file_logger] [info] Try to add message_2 to thread_7.
+[2016-01-24 22:55:56.192] [file_logger] [info] Successfully added message_2 to thread_7.
+[2016-01-24 22:55:56.192] [file_logger] [info] Added message_2 to thread_ 7 in threadlist.
+[2016-01-24 22:55:56.193] [file_logger] [info] Try to display top 3 threads in threadlist.
+[2016-01-24 22:55:56.193] [file_logger] [info] Trying to get string representation of thread_7.
+[2016-01-24 22:55:56.193] [file_logger] [info] Got string representation of thread_7 as: 7(2, 13).
+[2016-01-24 22:55:56.193] [file_logger] [info] Trying to get string representation of thread_1.
+[2016-01-24 22:55:56.194] [file_logger] [info] Got string representation of thread_1 as: 1(1).
+[2016-01-24 22:55:56.194] [file_logger] [info] Trying to get string representation of thread_11.
+[2016-01-24 22:55:56.194] [file_logger] [info] Got string representation of thread_11 as: 11(4).
+[2016-01-24 22:55:56.206] [file_logger] [info] display top 3 threads in threadlist as below:
+[2016-01-24 22:55:56.206] [file_logger] [info] [7(2, 13), 1(1), 11(4)]

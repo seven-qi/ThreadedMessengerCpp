@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadedMessenger", "ThreadedMessenger\ThreadedMessenger.vcxproj", "{F51CD5E8-582D-432A-A5AD-1939ADEF1959}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadedMessengerLib", "ThreadedMessengerLib\ThreadedMessengerLib.vcxproj", "{4B7B1B37-F56A-4FF0-B5FB-070609D2794E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadedMessengerTest", "ThreadedMessengerTest\ThreadedMessengerTest.vcxproj", "{E6713663-0647-4A7D-944C-1A7C17D3DE76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{F51CD5E8-582D-432A-A5AD-1939ADEF1959}.Debug|Win32.Build.0 = Debug|Win32
 		{F51CD5E8-582D-432A-A5AD-1939ADEF1959}.Release|Win32.ActiveCfg = Release|Win32
 		{F51CD5E8-582D-432A-A5AD-1939ADEF1959}.Release|Win32.Build.0 = Release|Win32
+		{4B7B1B37-F56A-4FF0-B5FB-070609D2794E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B7B1B37-F56A-4FF0-B5FB-070609D2794E}.Debug|Win32.Build.0 = Debug|Win32
+		{4B7B1B37-F56A-4FF0-B5FB-070609D2794E}.Release|Win32.ActiveCfg = Release|Win32
+		{4B7B1B37-F56A-4FF0-B5FB-070609D2794E}.Release|Win32.Build.0 = Release|Win32
+		{E6713663-0647-4A7D-944C-1A7C17D3DE76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6713663-0647-4A7D-944C-1A7C17D3DE76}.Debug|Win32.Build.0 = Debug|Win32
+		{E6713663-0647-4A7D-944C-1A7C17D3DE76}.Release|Win32.ActiveCfg = Release|Win32
+		{E6713663-0647-4A7D-944C-1A7C17D3DE76}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
