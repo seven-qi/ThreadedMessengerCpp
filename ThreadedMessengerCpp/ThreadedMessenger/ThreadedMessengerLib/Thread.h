@@ -5,6 +5,7 @@
  */
 
 #include <list>
+#include "ThreadedMessenger.h"
 #include "Message.h"
 
 /**

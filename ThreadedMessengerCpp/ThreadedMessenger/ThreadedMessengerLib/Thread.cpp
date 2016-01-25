@@ -31,12 +31,12 @@ int Thread::add(Message* message) {
 	// m_logger->info("Try to add message_{} to thread_{}.", message->id(), this->id());
 	if (message == nullptr){ // Check NUlL pointer;
 		// m_logger->info("Failed to add message_{} to thread_{}, check message.", message->id(), this->id());
-		return EXIT_FAILURE;
+		return RETURN_FAILURE;
 	};
 	// put the new messsage to the front of the queue.
 	m_messages.push_front(message);
 	// m_logger->info("Successfully added message_{} to thread_{}.", message->id(), this->id());
-	return EXIT_SUCCESS;
+	return RETURN_SUCCESS;
 }
 
 string Thread::str() {

@@ -34,7 +34,7 @@ int ThreadList::add(Message* message, unsigned int thread_id) {
 	// m_logger->info("Try to add message_{} to threadlist.", message->id());
 	if (message == nullptr || thread_id == NULL) {
 		// m_logger->info("Failed to add message to threalist, check inputs: message = {}, thread_id = {}.", message->id(), thread_id);
-		return EXIT_FAILURE;
+		return RETURN_FAILURE;
 	}
 	// If the thread is in the threadlist, 
 	// add the message to the message queue in the thread,
@@ -42,9 +42,9 @@ int ThreadList::add(Message* message, unsigned int thread_id) {
 	if (m_id_to_thread.find(thread_id) != m_id_to_thread.end()) {
 		auto thread = m_id_to_thread[thread_id];
 		int ret = (*thread)->add(message);
-		if (ret == EXIT_FAILURE) {
+		if (ret == RETURN_FAILURE) {
 			// m_logger->info("Failed to add message to threalist, check inputs: message = {}", message->id());
-			return EXIT_FAILURE;
+			return RETURN_FAILURE;
 		}
 		m_threads.splice(m_threads.begin(), m_threads, thread);
 	} 
@@ -54,15 +54,15 @@ int ThreadList::add(Message* message, unsigned int thread_id) {
 	else {
 		Thread* thread = new Thread(thread_id);
 		int ret = thread->add(message);
-		if (ret == EXIT_FAILURE) {
+		if (ret == RETURN_FAILURE) {
 			// m_logger->info("Failed to add message to threalist, check inputs: message = {}", message->id());
-			return EXIT_FAILURE;
+			return RETURN_FAILURE;
 		}
 		m_threads.push_front(thread);
 		m_id_to_thread[thread_id] = m_threads.begin();
 	}
 	// m_logger->info("Added message_{} to thread_ {} in threadlist.", message->id(), thread_id);
-	return EXIT_SUCCESS;
+	return RETURN_SUCCESS;
 }
 
 void ThreadList::display() {
