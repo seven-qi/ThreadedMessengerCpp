@@ -18,6 +18,20 @@ namespace ThreadedMessengerTest
 			delete threadlist;
 		}
 
+		TEST_METHOD(set_display_size)
+		{
+			// Check valid k.
+			ThreadList* threadlist = new ThreadList(3);
+			int ret = threadlist->set_display_size(2);
+			Assert::AreEqual(0, ret);
+			Assert::AreEqual(2, threadlist->display_size());
+
+			// Check invalid k.
+			Assert::AreEqual(1, threadlist->set_display_size(-1));
+
+			delete threadlist;
+		}
+
 		TEST_METHOD(display)
 		{
 			ThreadList* threadlist = new ThreadList(3);

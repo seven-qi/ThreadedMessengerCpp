@@ -30,6 +30,15 @@ int ThreadList::display_size() {
 	return m_display_size;
 }
 
+int ThreadList::set_display_size(int k) {
+	if (k < 0 || k > INT_MAX) {
+		//m_logger->warn("Setting invalid display size with k = {}", k);
+		return RETURN_FAILURE;
+	}
+	m_display_size = k;
+	return RETURN_SUCCESS;
+}
+
 int ThreadList::add(Message* message, unsigned int thread_id) {
 	// m_logger->info("Try to add message_{} to threadlist.", message->id());
 	if (message == nullptr || thread_id == NULL) {

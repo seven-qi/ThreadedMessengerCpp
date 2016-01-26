@@ -60,6 +60,19 @@ public:
 	int display_size();
 
 	/**
+	 * @fn	int ThreadList::set_display_size();
+	 *
+	 * @brief	Sets display size.
+	 *
+	 * @author	Sevensevens
+	 * @date	1/24/2016
+	 *
+	 * @return	An int.
+	 */
+
+	int set_display_size(int k);
+
+	/**
 	 * @fn	int ThreadList::add(Message* message, unsigned int thread_id);
 	 *
 	 * @brief	Adds a message to its thread, 
